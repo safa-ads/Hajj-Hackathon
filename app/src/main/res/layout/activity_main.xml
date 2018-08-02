@@ -18,18 +18,22 @@
             android:background="@android:color/holo_purple"
             android:layout_weight="1.0"
             android:text="Button"
-            android:src="@mipmap/icons_back_arrow"
-            android:tint="@android:color/white"/>
+            android:src="@mipmap/doctor"
+            android:tint="@android:color/white"
+            android:scaleType="fitCenter"
+            android:padding="20dp"/>
 
         <ImageButton
-            android:id="@+id/button2"
+            android:id="@+id/buttonLost"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/holo_green_light"
             android:layout_weight="1.0"
             android:text="Button"
-            android:src="@mipmap/icons_back_arrow"
-            android:tint="@android:color/white"/>
+            android:src="@mipmap/lost"
+            android:tint="@android:color/white"
+            android:scaleType="fitCenter"
+            android:padding="20dp"/>
 
     </LinearLayout>
 
@@ -40,13 +44,15 @@
         android:orientation="horizontal" >
 
         <ImageButton
-            android:id="@+id/button3"
+            android:id="@+id/buttonTrash"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/holo_blue_light"
             android:layout_weight="1.0"
-            android:src="@mipmap/icons_back_arrow"
-            android:tint="@android:color/white" />
+            android:src="@mipmap/waste_can"
+            android:tint="@android:color/white"
+            android:scaleType="fitCenter"
+            android:padding="20dp"/>
 
         <ImageButton
             android:id="@+id/button4"
@@ -54,8 +60,10 @@
             android:layout_height="match_parent"
             android:background="@android:color/holo_red_light"
             android:layout_weight="1.0"
-            android:src="@mipmap/icons_back_arrow"
-            android:tint="@android:color/white"/>
+            android:src="@mipmap/users_group"
+            android:tint="@android:color/white"
+            android:scaleType="fitCenter"
+            android:padding="20dp"/>
 
     </LinearLayout>
 </LinearLayout>
