@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/esraa/AndroidStudioProjects/EblaghHajj/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.9/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ceda0650ec225b9c0143ed8ff1c010d4e621a423">
+        <dex dex="/home/esraa/AndroidStudioProjects/EblaghHajj/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-core-1.9_6488bcca10fa62136536a8f658afe8ab94717bf7.jar" />
+    </item>
+    <item
+        jar="/home/esraa/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/home/esraa/AndroidStudioProjects/EblaghHajj/app/build/intermediates/pre-dexed/debug/core-3.2.1_f23e1043a6e238da0d5a60d5a55cf0d517be5071.jar" />
+    </item>
+    <item
+        jar="/home/esraa/AndroidStudioProjects/EblaghHajj/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zxing/1.9/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="760ff0a866a9b3b7fe4a91cfe6439d9dc93cea7c">
+        <dex dex="/home/esraa/AndroidStudioProjects/EblaghHajj/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-zxing-1.9_ad18e768c2bce67300482692a1e8ae6efc0d1616.jar" />
+    </item>
+
+</items>
