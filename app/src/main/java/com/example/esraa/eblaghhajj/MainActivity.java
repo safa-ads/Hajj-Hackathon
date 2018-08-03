@@ -9,8 +9,14 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.UUID;
+
 public class MainActivity extends AppCompatActivity {
     private ImageButton buttonAmbulance;
+    private DatabaseReference mDatabase;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ReportingCase.class);
                 startActivity(intent);
+                String uniqueId = UUID.randomUUID().toString();
+                FirebaseDatabase database = FirebaseDatabase.getInstance();
+                mDatabase = database.getReference("Users");
+                mDatabase.child(uniqueId).child("Location").setValue("Jeddah");
             }
         });
     }
