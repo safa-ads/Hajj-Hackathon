@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private ImageButton buttonAmbulance;
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         buttonAmbulance = (ImageButton) findViewById(R.id.buttonAmbulance);
         buttonAmbulance.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, QRReaderActivity.class);
+                Intent intent = new Intent(MainActivity.this, ReportingCase.class);
                 startActivity(intent);
             }
         });
